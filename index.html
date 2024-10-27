@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIMICALIZANDO</title>
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="PROJETO_MOBILE_FIRST/reset.css">
+    <link rel="stylesheet" href="PROJETO_MOBILE_FIRST/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+		<input type="checkbox" id="menu" class="container__botao"></input>
+		<label for="menu">
+        	<span class="cabeçalho_menu-hamburguer container__imagem"></span>
+		</label>
+		<ul class="lista-menu">
+			<li class="lista-menu__titulo">Categoria</li>
+			<li class="lista-menu__item"><a href="#" class="lista-menu__link">Química Geral</a></li>
+			<li class="lista-menu__item"><a href="#" class="lista-menu__link">Ligações Químicas</a></li>
+			<li class="lista-menu__item"><a href="#" class="lista-menu__link">Eletroquímica</a></li>
+			<li class="lista-menu__item"><a href="#" class="lista-menu__link">Cinética Química</a></li>
+			<li class="lista-menu__item"><a href="#" class="lista-menu__link">Química Orgânica</a></li>
+		</ul>
+		<span class="icone"></span>
+    	</div>
+    	<div class="container">
+        	<a href="#"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/Favoritos.svg" alt="Meus Favoritos" class="container-imagem"></a> 
+        	<a href="#"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/Usuario.svg" alt="Meu perfil" class="container-imagem"></a>
+    	</div>
+    </header>
+	<section class="banner">
+		<h2 class="banner__titulo">Aprenda química agora</h2>
+		<p class="banner__texto" >Acesse nossa estante e procure o material que você precisa</p> 
+		<input type="search" class="banner__pesquisa" placeholder="Digite o que você procura"/>
+	</section>
+	<section class="carrossel">
+		<h2 class="carrossel__titulo">Novidade</h2>
+		<!-- Slider main container -->
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+
+	<!-- If we need scrollbar -->
+	<div class="swiper-scrollbar"></div>
+  </div>
+<div class="swiper">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+	  <!-- Slides -->
+	  <div class="swiper-slide"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/book-solid.svg" alt="Arquivos da aula de Química Orgânica">Aula de Química Orgânica</div>
+	  <div class="swiper-slide"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/pen-solid.svg" alt="Lista de exercícios Química Orgânica">Lista de Química Orgânica</div>
+	  <div class="swiper-slide"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/pen-solid.svg" alt="Lista de exercícios Pilhas">Lista de Eletroquímica</div>
+	  <div class="swiper-slide"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/chalkboard-user-solid.svg" alt="Resumo sobre Ligações químicas">Resumo sobre ligações químicas</div> 
+	  <div class="swiper-slide"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/pen-solid.svg" alt="Lista de exercícios Ligações Químicas">Lista de Ligações Químicas</div>
+	  
+	  <!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"></div>
+	<div class="swiper-button-next"></div>
+
+	</div>
+
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>swiper = new Swiper('.swiper', {
+			spaceBetween: 10,
+			slidesPerView: 3,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+			}
+	  });
+	  </script> 
+
+<div class="card">
+	<!--1ºlinha-->
+	<div class="card__descrição">
+		<!--1º coluna-->
+		<div class="descrição">
+			<h3 class="descrição__titulo">Confira o resumo de Eletroquímica</h3>
+			<h2 class="descrição__titulo-livro">Pilhas e Eletrólise</h2>
+			<p class="descrição__texto">Processos eletroquímicos envolvidos nas Pilhas e Eletrólise</p>
+		</div>
+		<!--2ª coluna-->
+		<img src="./PROJETO_MOBILE_FIRST/Aulabooks/chalkboard-user-solid.svg" class="descrição__imagem">
+	</div>
+	<!--2ªlinha-->
+	<div class="card__botões">
+		<!--1ªcoluna-->
+		<ul class="botões">
+			<li class="botões__item"><img src="./PROJETO_MOBILE_FIRST/Aulabooks/Favoritos.svg"></li>
+		</ul>
+		<!--2ªcoluna-->
+		<a href="#" class="botões__ancora">Saiba mais</a>
+	</div>
+</div>
+<selection>
+	<
+</selection>
+</body>
+</html>

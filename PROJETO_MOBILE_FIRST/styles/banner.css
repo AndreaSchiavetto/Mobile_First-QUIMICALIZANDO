@@ -1,0 +1,54 @@
+.banner {
+    background-color: #D3D3D3;
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bona Nova SC", serif;
+}
+
+.banner__texto {
+    font-family: "Caveat", cursive;
+    color: #8E236B;
+    margin: 1em 0;
+}
+
+.banner__pesquisa {
+    padding: 2%;
+    background-color: transparent;
+    border: solid var(--branco);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.banner__titulo {
+    font-size: 20px;
+}
+
+.banner__pesquisa::placeholder{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color:#8E236B;
+    background: url(../Aulabooks/Lupa.svg) no-repeat 1em;
+    position: 1em;
+    
+}
+
+.swiper-slide {
+    width: 50px;
+    height: 160px;
+    padding: 1em;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+   
+}
+
+.swiper-slideimg {
+    width: 100%;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
